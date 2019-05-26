@@ -1,3 +1,12 @@
 title: Course Notes
 email: spramij@mun.ca
 markdown: kramdown
+respository_address: https://github.com/spramij/course_notes
+
+sass:
+    sass_dir: css
+    style: compressed 
+
+collections:
+    notes:
+        output: true
