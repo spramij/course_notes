@@ -15,7 +15,7 @@
 
   <nav>
     {% for doc in site.notes %}
-    <span><a href="{{ doc.url }}">{{ doc.title }}</a></span>
+    <span><a href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a></span>
     {% endfor %}
   </nav>
 
