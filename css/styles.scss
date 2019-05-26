@@ -2,7 +2,6 @@
 --- 
 
 html {
-  min-height: 100%;
   position: relative;
   font-family: Open Sans, Arial;
   background-color: rgb(46, 34, 34);
@@ -20,11 +19,9 @@ nav {
 }
 
 footer {
-  margin: 5% 0 10% 15px;
-  font-size: 0.8em;
+  padding: 25px 0 0 10px ;
+  font-size: 0.7em;
   line-height: 0.7;
-  position: absolute;
-  bottom: 0;
 }
 
 a {
