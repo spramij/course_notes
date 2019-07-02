@@ -5,7 +5,7 @@ function invertColors() {
         document.body.style.color = "black";
         theButton.innerHTML = "Go dark now !"
     } else {
-        document.documentElement.backgroundColor = '#2e2222';
+        document.documentElement.style.backgroundColor = '#2e2222';
         document.body.style.color = "#acacac";
         theButton.innerHTML = "More light please !"
     }
